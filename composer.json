@@ -1,0 +1,35 @@
+{
+    "name": "loutrux/yii2-orientdb",
+    "description": "OrientDB extension for the Yii framework",
+    "keywords": ["yii2", "orientdb"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/loutrux/yii2-orientdb/issues",
+        "source": "https://github.com/loutrux/yii2-orientdb"
+    },
+    "authors": [
+        {
+            "name": "Loutrux",
+            "email": "loutrux@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "ostico/phporient": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "loutrux\\orientdb\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}
