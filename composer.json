@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.14"
+        "yiisoft/yii2": "~2.0.14",
+        "ostico/phporient": "~1.2.6"
     },
     "autoload": {
         "psr-4": { "loutrux\\orientdb\\": "" }
