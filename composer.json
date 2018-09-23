@@ -1,6 +1,6 @@
 {
     "name": "loutrux/yii2-orientdb",
-    "description": "OrientDB extension for the Yii framework",
+    "description": "OrientDB extension for the Yii framework.",
     "keywords": ["yii2", "orientdb"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
