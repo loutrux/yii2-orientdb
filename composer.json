@@ -14,10 +14,9 @@
             "email": "loutrux@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.14",
-        "ostico/phporient": "dev-master"
+        "ostico/phporient": "v1.2.6"
     },
     "autoload": {
         "psr-4": { "loutrux\\orientdb\\": "" }
