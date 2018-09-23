@@ -14,6 +14,7 @@
             "email": "loutrux@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.14",
         "ostico/phporient": "dev-master"

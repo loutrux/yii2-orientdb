@@ -29,7 +29,7 @@ php composer.phar require --prefer-dist loutrux/yii2-orientdb
 or add
 
 ```
-"loutrux/yii2-orientdb": "~1.1.0"
+"loutrux/yii2-orientdb": "~1.0.0"
 ```
 
 to the require section of your composer.json.
