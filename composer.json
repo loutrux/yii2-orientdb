@@ -18,14 +18,8 @@
         "yiisoft/yii2": "~2.0.14",
         "ostico/phporient": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "autoload": {
-        "psr-4": { "loutrux\\orientdb\\": "src" }
+        "psr-4": { "loutrux\\orientdb\\": "" }
     },
     "extra": {
         "branch-alias": {
