@@ -54,3 +54,15 @@ return [
     ],
 ];
 ```
+
+Usage
+-----
+
+This component is a OrientDB client helper
+
+```
+\Yii::$app->orientdb->client;
+```
+
+
+

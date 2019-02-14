@@ -19,7 +19,9 @@ class Connection extends Component
     public $password;
     public $dbname;
 
-    public function __construct()
+    private $clusterMap;
+
+    public function __construct($config = [])
     {
         // ... initialization before configuration is applied
         $this->hostname = 'localhost';
@@ -33,13 +35,17 @@ class Connection extends Component
         $this->client->username = $this->username;
         $this->client->password = $this->password;
         $this->client->connect();
-        $this->client->dbOpen( $this->dbname, $this->username, $this->password);
+        $this->clusterMap = $this->client->dbOpen( $this->dbname, $this->username, $this->password);
     }
 
     public function init()
     {
         parent::init();
         // ... initialization after configuration is applied
+    }
+
+    public function getClusterMap(){
+        return $this->clusterMap;
     }
     
 }
