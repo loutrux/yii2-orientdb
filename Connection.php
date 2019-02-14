@@ -35,7 +35,8 @@ class Connection extends Component
         $this->client->username = $this->username;
         $this->client->password = $this->password;
         $this->client->connect();
-        $this->clusterMap = $this->client->dbOpen( $this->dbname, $this->username, $this->password);
+        if ($this->client->dbExists( $this->dbname))
+            $this->clusterMap = $this->client->dbOpen( $this->dbname, $this->username, $this->password);
     }
 
     public function init()
